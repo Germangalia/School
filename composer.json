@@ -1,0 +1,16 @@
+{
+    "name": "acacha/school",
+    "description": "bla bla bla",
+    "authors": [
+        {
+            "name": "Germangalia",
+            "email": "germangalia@iesebre.com"
+        }
+    ],
+    "autoload":{
+        "psr-4": {
+            "Com\\Iesebre\\Dam2\\germangalia\\" : "Classes"
+        }
+    }
+    "require": {}
+}
