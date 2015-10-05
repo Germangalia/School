@@ -1,4 +1,4 @@
-<?php
+<?php namespace Com\Iesebre\Dam2\germangalia\Persons;
 
 /**
  * Created by PhpStorm.
@@ -6,7 +6,7 @@
  * Date: 5/10/15
  * Time: 18:26
  */
-class Worker extends Person
+trait Worker
 {
 
     public $salary;
