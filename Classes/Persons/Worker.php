@@ -9,5 +9,9 @@
 trait Worker
 {
 
+    /**
+     * Salary of the worker.
+     * @var
+     */
     public $salary;
 }

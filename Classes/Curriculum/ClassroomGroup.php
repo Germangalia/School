@@ -14,7 +14,7 @@ use Com\Iesebre\Dam2\germangalia\Persons\Student;
 class ClassroomGroup
 {
     /**
-     * Array per a guardar els estudiants.
+     * Keep Etudents array.
      * @var array
      */
     public $students = array();
@@ -29,7 +29,7 @@ class ClassroomGroup
     }
 
     /**
-     * Insertar un alumne al array de estudiants.
+     * Inserta a Student to Students array.
      * @param Student $student
      */
     public function addStudent(Student $student)
@@ -39,6 +39,7 @@ class ClassroomGroup
     }
 
     /**
+     * Get Student.
      * @return array
      */
     public function getStudents()
@@ -47,6 +48,7 @@ class ClassroomGroup
     }
 
     /**
+     * Set Student.
      * @param array $students
      */
     public function setStudents($students)

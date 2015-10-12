@@ -30,4 +30,5 @@ proguard/
 .idea/workspace.xml
 .gitignore~
 
+.idea/workspace.xml
 /vendor/

@@ -11,8 +11,15 @@ class Teacher extends Person
 
     use Worker;
 
+    /**
+     * Speciality of the teacher.
+     * @var
+     */
     public $specification;
 
+    /**
+     * Print the teacher and his name like method render() of the Person class.
+     */
     public function render()
     {
         $this->type = "Professor";

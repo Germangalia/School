@@ -9,52 +9,56 @@
 class Person
 {
 
+    /**
+     * Type name.
+     * @var string
+     */
     public $type = "Persona";
 
     /**
-     * Identificador de la persona
+     * ID of person.
      * @var
      */
     public $personalId;
 
     /**
-     * Nom de la persona.
+     * Name of person.
      * @var
      */
     public $givenName;
 
     /**
-     * Primer cognom
+     * First Surname of person.
      * @var
      */
     public $sn1;
 
     /**
-     * Segon cognom
+     * Second surname of person.
      * @var
      */
     public $sn2;
 
     /**
-     * Email de la persona
+     * Email of person.
      * @var
      */
     public $email;
 
     /**
-     * Adreça de la persona.
+     * Address  of person.
      * @var
      */
     public $postalAddress;
 
     /**
-     * Localitat on viu la persona.
+     * Locality of person.
      * @var
      */
     public $locality;
 
     /**
-     * Codi postal de l'adreça.
+     * Postal code of person.
      * @var
      */
     public $postalCode;
@@ -90,6 +94,7 @@ class Person
 
 
     /**
+     * Get e-mail.
      * @return mixed
      */
     public function getEmail()
@@ -98,19 +103,20 @@ class Person
     }
 
     /**
-     * Provincia o regió
+     * State of person.
      * @var
      */
     public $state;
 
     /**
-     * País
+     * Country of person.
      * @var
      */
     public $country;
 
 
     /**
+     * Get given name.
      * @return mixed
      */
     public function getGivenName()
@@ -119,6 +125,7 @@ class Person
     }
 
     /**
+     * Set given name.
      * @param mixed $givenName
      */
     public function setGivenName($givenName)
@@ -127,6 +134,7 @@ class Person
     }
 
     /**
+     * Get Personal ID.
      * @return mixed
      */
     public function getPersonalId()
@@ -135,6 +143,7 @@ class Person
     }
 
     /**
+     * Set Personal ID.
      * @param mixed $personalId
      */
     public function setPersonalId($personalId)
@@ -144,6 +153,7 @@ class Person
 
 
     /**
+     * Set e-mail.
      * @param mixed $email
      */
     public function setEmail($email)
@@ -152,6 +162,7 @@ class Person
     }
 
     /**
+     * Get Address.
      * @return mixed
      */
     public function getPostalAddress()
@@ -160,6 +171,7 @@ class Person
     }
 
     /**
+     * Set Address.
      * @param mixed $postalAddress
      */
     public function setPostalAddress($postalAddress)
@@ -168,6 +180,7 @@ class Person
     }
 
     /**
+     * Get Locality.
      * @return mixed
      */
     public function getLocality()
@@ -176,6 +189,7 @@ class Person
     }
 
     /**
+     * Set Locality.
      * @param mixed $locality
      */
     public function setLocality($locality)
@@ -184,6 +198,7 @@ class Person
     }
 
     /**
+     * Get Postal code.
      * @return mixed
      */
     public function getPostalCode()
@@ -192,6 +207,7 @@ class Person
     }
 
     /**
+     * Set postal code.
      * @param mixed $postalCode
      */
     public function setPostalCode($postalCode)
@@ -200,6 +216,7 @@ class Person
     }
 
     /**
+     * Get State.
      * @return mixed
      */
     public function getState()
@@ -208,6 +225,7 @@ class Person
     }
 
     /**
+     * Set State.
      * @param mixed $state
      */
     public function setState($state)
@@ -216,6 +234,7 @@ class Person
     }
 
     /**
+     * Get country.
      * @return mixed
      */
     public function getCountry()
@@ -224,6 +243,7 @@ class Person
     }
 
     /**
+     * Set country.
      * @param mixed $country
      */
     public function setCountry($country)
@@ -232,6 +252,7 @@ class Person
     }
 
     /**
+     * Get First Surname.
      * @return mixed
      */
     public function getSn1()
@@ -240,6 +261,7 @@ class Person
     }
 
     /**
+     * Set First Surname.
      * @param mixed $sn1
      */
     public function setSn1($sn1)
@@ -248,6 +270,7 @@ class Person
     }
 
     /**
+     * Get Second Surname.
      * @return mixed
      */
     public function getSn2()
@@ -256,6 +279,7 @@ class Person
     }
 
     /**
+     * Set Second surname.
      * @param mixed $sn2
      */
     public function setSn2($sn2)
@@ -263,6 +287,9 @@ class Person
         $this->sn2 = $sn2;
     }
 
+    /**
+     * Print the name of the person.
+     */
     public function render()
     {
         echo "La {$this->type} té el nom " . $this->getGivenName() . "\n";

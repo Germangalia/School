@@ -10,8 +10,16 @@ class Student extends  Person
 {
     use Worker;
 
+    /**
+     * Boolean of dual study.
+     * @var bool|null
+     */
     public $dual = false;
 
+    /**
+     * Keep classroom group.
+     * @var
+     */
     public $classRoomGroup;
 
     /**
@@ -27,11 +35,14 @@ class Student extends  Person
 
     }
 
+    /**
+     * Print the student and his salary.
+     */
     public function render()
     {
         $this->type = "Estudiant";
 
-        if($this->$dual){
+        if($this->dual){
             parent::render() . " i cobra " . $this->salary;
         } else {
             parent::render();
