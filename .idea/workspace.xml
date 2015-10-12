@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b75d6a7c-b52d-43ab-8e30-dba18c2fef6e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Curriculum/ClassroomGroup.php" afterPath="$PROJECT_DIR$/Classes/Curriculum/ClassroomGroup.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Curriculum/Course.php" afterPath="$PROJECT_DIR$/Classes/Curriculum/Course.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Persons/Person.php" afterPath="$PROJECT_DIR$/Classes/Persons/Person.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Persons/Student.php" afterPath="$PROJECT_DIR$/Classes/Persons/Student.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Classes/Location/Location.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Curriculum/StudyModule.php" afterPath="$PROJECT_DIR$/Classes/Curriculum/StudyModule.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Persons/Teacher.php" afterPath="$PROJECT_DIR$/Classes/Persons/Teacher.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Persons/Worker.php" afterPath="$PROJECT_DIR$/Classes/Persons/Worker.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/main.php" afterPath="$PROJECT_DIR$/Classes/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Classes/Curriculum/StudySubModule.php" afterPath="$PROJECT_DIR$/Classes/Curriculum/StudySubModule.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="School.iws" />
@@ -62,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Worker.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Worker.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/Persons/Worker.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3195739">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state vertical-scroll-proportion="-1.25">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -75,7 +70,7 @@
       <file leaf-file-name="ClassroomGroup.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/Curriculum/ClassroomGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-3.1666667">
               <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
@@ -104,23 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Course.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Classes/Curriculum/Course.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="153" column="36" selection-start-line="153" selection-start-column="36" selection-end-line="153" selection-end-column="36" />
-              <folding>
-                <element signature="e#141#190#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StudyModule.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes/Curriculum/StudyModule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
+            <state vertical-scroll-proportion="-0.625">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="49" />
               <folding>
                 <element signature="e#57#106#0#PHP" expanded="true" />
               </folding>
@@ -128,11 +111,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudySubModule.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="StudySubModule.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Classes/Curriculum/StudySubModule.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="56" />
+            <state vertical-scroll-proportion="4.254328">
+              <caret line="213" column="1" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
+              <folding>
+                <element signature="e#141#190#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Location.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Classes/Location/Location.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-71.25">
+              <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
               <folding />
             </state>
           </provider>
@@ -162,12 +157,14 @@
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/Classes/Curriculum/ClassroomGroup.php" />
         <option value="$PROJECT_DIR$/Classes/Curriculum/Course.php" />
-        <option value="$PROJECT_DIR$/Classes/Curriculum/StudyModule.php" />
         <option value="$PROJECT_DIR$/Classes/Persons/Person.php" />
         <option value="$PROJECT_DIR$/Classes/Persons/Teacher.php" />
         <option value="$PROJECT_DIR$/Classes/Persons/Worker.php" />
         <option value="$PROJECT_DIR$/Classes/main.php" />
         <option value="$PROJECT_DIR$/Classes/Persons/Student.php" />
+        <option value="$PROJECT_DIR$/Classes/Location/Location.php" />
+        <option value="$PROJECT_DIR$/Classes/Curriculum/StudyModule.php" />
+        <option value="$PROJECT_DIR$/Classes/Curriculum/StudySubModule.php" />
       </list>
     </option>
   </component>
@@ -259,6 +256,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Persons" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="School" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="School" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Location" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -579,7 +594,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="e#141#190#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -665,7 +682,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="56" />
-          <folding />
+          <folding>
+            <element signature="e#141#190#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -805,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Curriculum/StudyModule.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="177" column="1" selection-start-line="177" selection-start-column="1" selection-end-line="177" selection-end-column="1" />
-          <folding>
-            <element signature="e#57#106#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Persons/Person.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -857,27 +866,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Persons/Worker.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Curriculum/ClassroomGroup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-3.1666667">
           <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Classes/Persons/Worker.php">
+    <entry file="file://$PROJECT_DIR$/Classes/Location/Location.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3195739">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state vertical-scroll-proportion="-71.25">
+          <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Classes/Curriculum/StudyModule.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.625">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="2" selection-end-column="49" />
+          <folding>
+            <element signature="e#57#106#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes/Curriculum/StudySubModule.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="56" />
-          <folding />
+        <state vertical-scroll-proportion="4.254328">
+          <caret line="213" column="1" selection-start-line="213" selection-start-column="1" selection-end-line="213" selection-end-column="1" />
+          <folding>
+            <element signature="e#141#190#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

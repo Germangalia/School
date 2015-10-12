@@ -170,7 +170,7 @@ class StudyModule extends Course
      * Add a new Student.
      * @param Student $studyModuleStudents
      */
-    public function addtudyModuleStudents(Student $studyModuleStudents) {
+    public function addStudyModuleStudents(Student $studyModuleStudents) {
         array_push($this->studyModuleStudents = $studyModuleStudents);
 
     }
