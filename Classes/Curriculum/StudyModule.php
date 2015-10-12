@@ -4,7 +4,7 @@ use Com\Iesebre\Dam2\germangalia\Persons\Teacher;
 
 /**
  * Created by PhpStorm.
- * User: ggalia84
+ * Users: ggalia84
  * Date: 5/10/15
  * Time: 19:57
  */

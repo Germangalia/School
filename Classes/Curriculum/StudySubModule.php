@@ -2,7 +2,7 @@
 
 /**
  * Created by PhpStorm.
- * User: ggalia84
+ * Users: ggalia84
  * Date: 5/10/15
  * Time: 19:58
  */
@@ -25,6 +25,12 @@ class StudySubModule extends StudyModule
      * @var
      */
     public $studySubModuleID;
+
+    /**
+     * Hours of study sub module.
+     * @var
+     */
+    public $hoursStudySubModule;
 
     /**
      * Keep Study Lessons of Study Sub Module in this array.
@@ -103,6 +109,26 @@ class StudySubModule extends StudyModule
     {
         $this->studySubModuleID = $studySubModuleID;
     }
+
+    /**
+     * Get hours of the study sub module
+     * @return mixed
+     */
+    public function getHoursStudySubModule()
+    {
+        return $this->hoursStudySubModule;
+    }
+
+    /**
+     * Set hours of the study sub module
+     * @param mixed $hoursStudySubModule
+     */
+    public function setHoursStudySubModule($hoursStudySubModule)
+    {
+        $this->hoursStudySubModule = $hoursStudySubModule;
+    }
+
+
 
     /**
      * Get the Lesssons of the study sub module.

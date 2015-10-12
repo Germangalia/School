@@ -1,12 +1,14 @@
 <?php namespace Com\Iesebre\Dam2\germangalia\Persons;
 
+use Com\Iesebre\Dam2\germangalia\User;
+
 /**
  * Created by PhpStorm.
- * User: ggalia84
+ * Users: ggalia84
  * Date: 5/10/15
  * Time: 17:50
  */
-class Person
+class Person extends User
 {
 
     /**
