@@ -11,6 +11,6 @@
         "psr-4": {
             "Com\\Iesebre\\Dam2\\germangalia\\" : "Classes"
         }
-    }
+    },
     "require": {}
 }
